@@ -1,0 +1,12 @@
+### Get a User
+GET http://localhost:8080/users/123e4567-e89b-12d3-a456-426614174000
+Accept: application/json
+
+### Create a User
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "john_doe",
+  "email": "john.doe@example.com"
+}
